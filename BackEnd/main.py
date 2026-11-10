@@ -24,7 +24,8 @@ def emp():
 @klu.get("/students")
 def getstudents():
     return[{"id":"1","name":"satya","gender":"male","course":"DSA"},
-           {"id":"1","name":"satya","gender":"male","course":"DSA"},
-           {"id":"1","name":"satya","gender":"male","course":"DSA"}]
+           {"id":"1","name":"teja","gender":"male","course":"DSA"},
+           {"id":"1","name":"sameer","gender":"male","course":"DSA"}
+           ]
 
         
